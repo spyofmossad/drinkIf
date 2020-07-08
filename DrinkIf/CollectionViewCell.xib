@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CollectionViewCell" customModule="DrinkIf"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="DrinkIf" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="699"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="459" height="699"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tdv-g3-09R">
+                        <rect key="frame" x="0.0" y="0.0" width="459" height="699"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="aXa-MJ-61G">
+                                <rect key="frame" x="57.5" y="256.5" width="344" height="186"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drink if..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iic-p4-aQY">
+                                        <rect key="frame" x="122.5" y="0.0" width="99" height="48"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You've ever been in trouble with the police" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxE-IC-5ai">
+                                        <rect key="frame" x="9" y="106" width="326.5" height="80"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glass1" translatesAutoresizingMaskIntoConstraints="NO" id="jFn-R8-ceo">
+                                <rect key="frame" x="184.5" y="498.5" width="90" height="107"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog2" translatesAutoresizingMaskIntoConstraints="NO" id="W9K-m3-FXN">
+                                <rect key="frame" x="0.0" y="55.5" width="459" height="174.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jFn-R8-ceo" firstAttribute="width" secondItem="tdv-g3-09R" secondAttribute="width" multiplier="0.196078" id="4TE-ue-yqw"/>
+                            <constraint firstItem="W9K-m3-FXN" firstAttribute="height" secondItem="tdv-g3-09R" secondAttribute="height" multiplier="0.25" id="6fl-8v-HPl"/>
+                            <constraint firstItem="aXa-MJ-61G" firstAttribute="centerX" secondItem="tdv-g3-09R" secondAttribute="centerX" id="AH2-GJ-5TX"/>
+                            <constraint firstItem="aXa-MJ-61G" firstAttribute="width" secondItem="tdv-g3-09R" secondAttribute="width" multiplier="0.75" id="CPJ-Sf-dE4"/>
+                            <constraint firstItem="jFn-R8-ceo" firstAttribute="top" secondItem="sxE-IC-5ai" secondAttribute="bottom" constant="56" id="VLH-Kg-9fl"/>
+                            <constraint firstItem="aXa-MJ-61G" firstAttribute="top" secondItem="W9K-m3-FXN" secondAttribute="bottom" constant="26.5" id="YKb-Rp-pIJ"/>
+                            <constraint firstItem="jFn-R8-ceo" firstAttribute="centerX" secondItem="tdv-g3-09R" secondAttribute="centerX" id="dcm-53-eYc"/>
+                            <constraint firstItem="jFn-R8-ceo" firstAttribute="height" secondItem="tdv-g3-09R" secondAttribute="height" multiplier="0.153076" id="oke-0v-jVM"/>
+                            <constraint firstItem="aXa-MJ-61G" firstAttribute="centerY" secondItem="tdv-g3-09R" secondAttribute="centerY" id="qSF-8q-lM7"/>
+                            <constraint firstItem="W9K-m3-FXN" firstAttribute="width" secondItem="tdv-g3-09R" secondAttribute="width" id="u8a-Md-gcf"/>
+                            <constraint firstItem="W9K-m3-FXN" firstAttribute="centerX" secondItem="tdv-g3-09R" secondAttribute="centerX" id="xTA-V8-TZB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="tdv-g3-09R" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="LGj-yH-X6c"/>
+                <constraint firstItem="tdv-g3-09R" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="QVR-P9-SLT"/>
+                <constraint firstItem="tdv-g3-09R" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="hVb-22-OfV"/>
+                <constraint firstItem="tdv-g3-09R" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="pwC-QS-p98"/>
+            </constraints>
+            <size key="customSize" width="459" height="699"/>
+            <connections>
+                <outlet property="question" destination="sxE-IC-5ai" id="J5G-72-SXo"/>
+            </connections>
+            <point key="canvasLocation" x="434.05797101449281" y="360.60267857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="dog2" width="2004" height="1601"/>
+        <image name="glass1" width="210" height="261"/>
+    </resources>
+</document>
